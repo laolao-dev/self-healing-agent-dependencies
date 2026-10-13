@@ -1,0 +1,17 @@
+{
+  "description": "Retrieve an account dossier when needed, and look up a support ticket by ticket_id for incident triage and ticket status summaries.",
+  "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+      "ticket_id": {
+        "pattern": "^TCK-[0-9]+$",
+        "type": "string"
+      }
+    },
+    "required": [
+      "ticket_id"
+    ],
+    "type": "object"
+  },
+  "name": "mcp.support.lookup_ticket"
+}

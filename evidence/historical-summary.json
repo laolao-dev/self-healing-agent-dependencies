@@ -1,0 +1,152 @@
+{
+  "v1": {
+    "status": "PASS",
+    "mode": "deterministic_local_mcp_stdio_no_model_no_api",
+    "selection": {
+      "full_eval_count": 4,
+      "manual_workflow_dependency_annotations": 0,
+      "selection_source": "baseline observed tool_calls",
+      "targeted_eval_count": 2,
+      "targeted_eval_ids": [
+        "incident_triage",
+        "ticket_status"
+      ]
+    },
+    "limitations": [
+      "The agent router and MCP transport are deterministic local fixtures.",
+      "The result proves this bounded description-change scenario, not arbitrary semantic tool changes.",
+      "ABL verifies recorded governance, audit, and identifier-level provenance; it does not certify production security."
+    ],
+    "cost": {
+      "api_calls": 0,
+      "model_api_cost_usd": 0.0,
+      "model_calls": 0
+    },
+    "original_top_level_fields": [
+      "abl_reverification",
+      "baseline",
+      "cost",
+      "dependency_change",
+      "dependency_index",
+      "limitations",
+      "mode",
+      "regression",
+      "repair",
+      "root_cause",
+      "selection",
+      "status"
+    ]
+  },
+  "v2": {
+    "status": "PASS",
+    "limitations": [
+      "The workflow uses the real Deep Agents graph and tools with a deterministic replay model, not a live LLM.",
+      "Results cover four filesystem-tool dependencies and three controlled interface mutations, not arbitrary tools or models.",
+      "Schema mutations model advertised-contract drift against the unchanged runtime handler.",
+      "ABL verifies recorded governance, audit, and identifier-level provenance, not production security or output truth."
+    ],
+    "cost": {
+      "api_calls": 0,
+      "full_usd": 0.0,
+      "model_calls_billed": 0,
+      "targeted_usd": 0.0
+    },
+    "original_top_level_fields": [
+      "abl_reverification",
+      "aggregate",
+      "baseline",
+      "baseline_eval_count",
+      "baseline_tests",
+      "cost",
+      "dependency_count",
+      "dependency_index",
+      "dependency_mapping_source",
+      "dependency_types",
+      "limitations",
+      "manual_dependency_annotations",
+      "mutation_count",
+      "mutations",
+      "post_repair_upstream_tests",
+      "project",
+      "repair",
+      "resource_usage",
+      "status",
+      "upstream_changed"
+    ],
+    "aggregate": {
+      "median_full_runtime_ms": 115.875,
+      "median_targeted_runtime_ms": 30.968,
+      "precision": 1.0,
+      "regression_recall": 1.0,
+      "runtime_reduction": 0.732746
+    }
+  },
+  "v3": {
+    "status": "PASS_WITH_REPAIR_INCONCLUSIVE",
+    "limitations": [
+      "The local model performs stochastic tool selection; post-tool graph termination is deterministic to bound cost and loops.",
+      "Only one local model, one Deep Agents commit, four filesystem tools, and three controlled mutations are covered.",
+      "A mutation that produces no stochastic behavioral failures cannot demonstrate repair effectiveness.",
+      "ABL verification remains deterministic and does not prove stochastic model reliability."
+    ],
+    "original_top_level_fields": [
+      "abl_reverification",
+      "aggregate",
+      "baseline_trials",
+      "commit",
+      "frozen_mapping",
+      "limitations",
+      "model",
+      "mutations",
+      "project",
+      "repair",
+      "resource_usage",
+      "runs_per_mutation",
+      "status",
+      "total_eval_executions",
+      "total_suite_runs",
+      "upstream_baseline_tests",
+      "upstream_changed"
+    ],
+    "aggregate": {
+      "behavioral_variance": {
+        "glob_schema_pattern_to_query": {
+          "max": 0.25,
+          "mean": 0.25,
+          "min": 0.25,
+          "population_stdev": 0.0
+        },
+        "grep_schema_pattern_to_search_text": {
+          "max": 0.25,
+          "mean": 0.25,
+          "min": 0.25,
+          "population_stdev": 0.0
+        },
+        "read_file_description_semantic_narrowing": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "population_stdev": 0.0
+        }
+      },
+      "false_negative": 0,
+      "false_negative_rate": 0.0,
+      "false_positive": 0,
+      "false_positive_rate": 0.0,
+      "precision": 1.0,
+      "regression_recall": 1.0,
+      "root_cause_accuracy": 1.0,
+      "root_cause_variance": {
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "population_stdev": 0.0
+      },
+      "targeted_failure_rate": 0.6666666666666666,
+      "targeted_ratio": 0.25,
+      "true_negative": 60,
+      "true_positive": 120,
+      "unseen_stochastic_dependency_paths": []
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "project": "P2",
+  "version": "v0.1.0-experimental",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 94,
+      "sha256": "003ab602f40762a9d3e02df9738220fc0a907e39b3f061301c1b2c4177d0e2de"
+    },
+    {
+      "path": "PUBLICATION_SCOPE.md",
+      "bytes": 242,
+      "sha256": "4f0450949cca8e804c3e1bcfc6756094be1f92d5e8dac2988e74192d7856dafb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2618,
+      "sha256": "40992e030079adedbe60453a086e09a76558ea18cb65e64b21b8ca7cfe3ec55d"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 288,
+      "sha256": "486995d6d7051025d5eeb702b83dbe3e92d9e61312759dadf71d703ddb6f021b"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 658,
+      "sha256": "d8ebad228cb5f3f6396e3bf6d7657e1f18c0a02664fbd9cd8183f6ee2662a7e7"
+    },
+    {
+      "path": "evidence/historical-summary.json",
+      "bytes": 4526,
+      "sha256": "e7e2cbb59b7f12b9efc4285e91f4fb5ee83bdb7581647a5fe5b4e9db588739c0"
+    },
+    {
+      "path": "requirements-publication-lock.txt",
+      "bytes": 1470,
+      "sha256": "8cbb02b92ed66d28880ef08415b8ca2355ba4e37c5e846a74f893229f42f061c"
+    },
+    {
+      "path": "requirements-v1.txt",
+      "bytes": 25,
+      "sha256": "af1b33bf9cd54f5b68df251745de507e09f93f73212553ccdb9658fd3f1966d6"
+    },
+    {
+      "path": "requirements-v2-v3.txt",
+      "bytes": 80,
+      "sha256": "e31c8ba58e5560758d66a9f0599cf697e1ee0c69f8951ac395b9f9aaf57ba4a1"
+    },
+    {
+      "path": "v1/fixtures/tool_baseline.json",
+      "bytes": 393,
+      "sha256": "60fcab46f5154d1aa06dae359e9bc9c255f38ac5c80215d377749027a1cc3ce5"
+    },
+    {
+      "path": "v1/fixtures/tool_changed.json",
+      "bytes": 380,
+      "sha256": "0ae55d4dad8ed485cdc628ac911c7e7688ea8d6d7aa91b4cfc600b5332d49490"
+    },
+    {
+      "path": "v1/fixtures/tool_repaired.json",
+      "bytes": 433,
+      "sha256": "f37bea790d87eb96f93566ba82b4138fb8166fc4e5573e1019800a63be0ee40d"
+    },
+    {
+      "path": "v1/run_experiment.py",
+      "bytes": 6914,
+      "sha256": "174b5f4e6964fa81f10f3f63ccfff549a925e336e3a955d714dfaa7b6c258347"
+    },
+    {
+      "path": "v1/src/dependency_killer.py",
+      "bytes": 11081,
+      "sha256": "296bf453acc0dff19b22be6b19bb9742db59550e1dd3d692fec3fe6bd52a3734"
+    },
+    {
+      "path": "v1/src/mcp_tool_server.py",
+      "bytes": 779,
+      "sha256": "1a9a7005eec4a64990bcc6a56661e303c47f211add4218cad7bea19dab9d327a"
+    },
+    {
+      "path": "v1/tests/test_unit.py",
+      "bytes": 1524,
+      "sha256": "80c1bdef688d2050455473389c4eb284d9fe445b4681f51298a9bfc64ff4c99f"
+    },
+    {
+      "path": "v2/run_experiment.py",
+      "bytes": 11409,
+      "sha256": "b5cf779a1fe3349b9b54addfc645ed3bbc4a6a661dd7d4b2669b4a882f9d1a8b"
+    },
+    {
+      "path": "v2/smoke.py",
+      "bytes": 946,
+      "sha256": "67b10c83796e19e121bf9cb7b04a1e20e573b8e42a0e23d36b6c94c242edd0ff"
+    },
+    {
+      "path": "v2/src/scale_validation.py",
+      "bytes": 20065,
+      "sha256": "781eaaeb551c1913c8977c309f153f9a4e3e0cdff37dc80f7b19e59f4e8b0396"
+    },
+    {
+      "path": "v2/tests/test_scale_validation.py",
+      "bytes": 2320,
+      "sha256": "cb68632c079b1a9396497fe41359017d2b6e815f2ac45266e78ea51208dcc9d1"
+    },
+    {
+      "path": "v3/src/stochastic_validation.py",
+      "bytes": 14504,
+      "sha256": "9e07b246881980db4d58211bbee197d6d560fbbdf53805caa32e0012421bb758"
+    },
+    {
+      "path": "v3/tests/test_stochastic_validation.py",
+      "bytes": 2278,
+      "sha256": "115c752d49e5cee4c83e1c29a0367576ebb451d14f1779cbce1f547292968b63"
+    }
+  ]
+}

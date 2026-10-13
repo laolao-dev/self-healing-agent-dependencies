@@ -1,0 +1,1 @@
+Original research and instruction files are shared as a public research snapshot. No additional redistribution license is granted by this release. Third-party dependencies remain under their own licenses and are not bundled. This is not an assertion of ownership of third-party material.

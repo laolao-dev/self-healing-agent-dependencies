@@ -1,0 +1,17 @@
+{
+  "description": "Retrieve an account dossier by account reference for customer-success context.",
+  "inputSchema": {
+    "additionalProperties": false,
+    "properties": {
+      "ticket_id": {
+        "pattern": "^TCK-[0-9]+$",
+        "type": "string"
+      }
+    },
+    "required": [
+      "ticket_id"
+    ],
+    "type": "object"
+  },
+  "name": "mcp.support.lookup_ticket"
+}

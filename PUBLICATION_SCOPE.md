@@ -1,0 +1,1 @@
+Project P2; publication snapshot v0.1.0-experimental; prepared 2026-10-13 JST. This snapshot starts a new Git history from audited allowlisted files. Original local projects are unchanged. Read README.md for actual validation and exclusions.
