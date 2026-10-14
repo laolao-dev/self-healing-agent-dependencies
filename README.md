@@ -1,5 +1,13 @@
 # Agent dependency regression experiments
 
+## FINAL ARCHIVE RELEASE — v0.1.0
+
+This is the final archive of the currently completed public scope, dated 2026-10-14. It does not imply future maintenance, production maturity, commercial validation, or renewed development.
+
+V1 bounded minimum loop, V2 workflow validation tools and V3 public comparison modules are preserved. Description mutation repair = INCONCLUSIVE. Market Pull = NOT PROVEN. Buyer / Pilot / WTP = 0. Historical technical PASS results do not establish a validated commercial product or arbitrary automated repair.
+
+See CHANGELOG.md, RELEASE_NOTES.md, RELEASE_ASSETS.md, PUBLIC_FILE_MANIFEST.json and SHA256SUMS for release scope, validation and integrity records.
+
 A small research snapshot exploring how tool description and schema changes affect agent workflows, and whether baseline traces can select a smaller regression suite.
 
 ## Included

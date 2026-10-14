@@ -1,6 +1,13 @@
 {
   "project": "P2",
-  "version": "v0.1.0-experimental",
+  "repository": "https://github.com/laolao-dev/self-healing-agent-dependencies",
+  "version": "v0.1.0",
+  "release_type": "FINAL ARCHIVE RELEASE",
+  "source_public_commit": "6fd0f611806fa323984d3cde5da3e51bd2b091d1",
+  "excludes": [
+    "PUBLIC_FILE_MANIFEST.json",
+    "SHA256SUMS"
+  ],
   "files": [
     {
       "path": ".gitignore",
@@ -8,14 +15,29 @@
       "sha256": "003ab602f40762a9d3e02df9738220fc0a907e39b3f061301c1b2c4177d0e2de"
     },
     {
+      "path": "CHANGELOG.md",
+      "bytes": 761,
+      "sha256": "4d13e38eac9da4530c8d55565378fb10919026bb21f7a049fdbfa7fe571bc4e0"
+    },
+    {
       "path": "PUBLICATION_SCOPE.md",
-      "bytes": 242,
-      "sha256": "4f0450949cca8e804c3e1bcfc6756094be1f92d5e8dac2988e74192d7856dafb"
+      "bytes": 851,
+      "sha256": "5fb2d1caec975e3606a1db7f0127aa8b2cb77e244651a325ef71efc83a54906e"
     },
     {
       "path": "README.md",
-      "bytes": 2618,
-      "sha256": "40992e030079adedbe60453a086e09a76558ea18cb65e64b21b8ca7cfe3ec55d"
+      "bytes": 3308,
+      "sha256": "d925fc103f76c01ad7272481269af58b84fa8702fb4b4b31fc3ed35348c70bc5"
+    },
+    {
+      "path": "RELEASE_ASSETS.md",
+      "bytes": 1224,
+      "sha256": "130796156a24ca6e113aa7c52ec2ac0e775e6bbf8d35f81b4328fd60164abbb2"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1350,
+      "sha256": "4d04ccdbb5fb8cc0f063eb23df376779511f8c7da847b5b88265cbfc704160dd"
     },
     {
       "path": "RIGHTS.md",
@@ -24,8 +46,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 658,
-      "sha256": "d8ebad228cb5f3f6396e3bf6d7657e1f18c0a02664fbd9cd8183f6ee2662a7e7"
+      "bytes": 1676,
+      "sha256": "d9c8827d3e41aad5f43fe70518338055fd75fffb1967bda5ff4c88767587bcd0"
     },
     {
       "path": "evidence/historical-summary.json",
